@@ -1,0 +1,27 @@
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    border: 1px solid black;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.dark-red {
+    background-color: darkred !important;
+}
